@@ -56,7 +56,7 @@ div img {
 .row {
 	display: flex;
 	/*flex-direction: row; */
-	flex-flow: row wrap; /* This replaces line 35 and flex-wrap */
+	flex-flow: row wrap; 
 }
 
 /* Mobile Landscape Screen Sizes */
@@ -89,5 +89,8 @@ div img {
 	}
 	.col-4 {
 		flex: 0 0 92%;
+	}
+	.col-2-4 {
+		order: 0;
 	}
 }

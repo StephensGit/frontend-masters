@@ -90,4 +90,14 @@ div img {
 	.col-4 {
 		flex: 0 0 92%;
 	}
+	/* The row gets reversed */
+	.reverse {
+		flex-direction: row-reverse;
+		/* margin-right: 4%; */
+	}
+	/* Have to over-write the margin-left on the item */
+	.reverse [class*="col-1"] {
+		margin-left: 0%;
+		margin-right: 4%;
+	}
 }

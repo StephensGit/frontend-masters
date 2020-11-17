@@ -55,7 +55,7 @@ div img {
 /* grid system -- mobile first! */
 .row {
 	display: flex;
-	/*flex-direction: row; */
+	/* flex-direction: row; */
 	flex-flow: row wrap; /* This replaces line 35 and flex-wrap */
 }
 
